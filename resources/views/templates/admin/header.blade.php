@@ -9,16 +9,16 @@
   </title>
   <!-- Favicon -->
   
-  <link href="http://localhost/Motel/public/templates/admin/img/brand/favicon.ico" rel="icon" type="image/png">
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/img/brand/favicon.ico" rel="icon" type="image/png">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <!-- Icons -->
-  <link href="http://localhost/Motel/public/templates/admin/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
-  <link href="http://localhost/Motel/public/templates/admin/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="http://localhost/Motel/public/templates/admin/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
-  <link href="http://localhost/Motel/public/templates/admin/css/customs.css" rel="stylesheet" />
-  <link href="http://localhost/Motel/public/templates/admin/css/fileupload.css" rel="stylesheet" />
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/css/customs.css" rel="stylesheet" />
+  <link href="http://lamvantan2912000.herokuapp.com/templates/admin/css/fileupload.css" rel="stylesheet" />
   {{-- ChartScript --}}
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/data.js"></script>
@@ -122,7 +122,7 @@
             <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="http://localhost/Motel/public/templates/admin/img/theme/team-4-800x800.jpg">
+                  <img alt="Image placeholder" src="http://lamvantan2912000.herokuapp.com/templates/admin/img/theme/team-4-800x800.jpg">
                 </span>
                 <div class="media-body ml-2 d-none d-lg-block">
                   <span class="mb-0 text-sm  font-weight-bold">@if(Auth::check()) {{Auth::user()->email}} @endif</span>
