@@ -16,8 +16,7 @@ use App\User;
 use App\Models\BankUser;
 class AdminRoomController extends Controller
 {
-    public function __construct(Floor $floor, RoomType $roomType, Service $service,
-        ServiceRoom $serviceRoom,Room $room, Images $images, BankUser $bankUser){
+    public function __construct(Floor $floor, RoomType $roomType, Service $service,ServiceRoom $serviceRoom,Room $room, Images $images, BankUser $bankUser) {
         $this->floor = $floor;
         $this->roomType = $roomType;
         $this->service = $service;
@@ -26,7 +25,7 @@ class AdminRoomController extends Controller
         $this->images = $images;
         $this->bankUser = $bankUser;
     }
-    public function index(){
+    public function index() {
         if(Auth::check()){
             $idUser = Auth::user()->id;
         }
